@@ -1,0 +1,4 @@
+{
+    "db": "mongodb://localhost/crm_dev",
+    "jwtPrivateKey": ""
+}

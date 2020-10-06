@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9ecef;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+// globals
+
+.form-group {
+  label {
+    margin-bottom: 3px;
+    font-size: 12px;
+  }
+  input {
+    border: 1px solid #e5e5e5;
+    font-size: 13px;
+    border-radius: 2px;
+  }
+  .error {
+    font-size: 10px;
+    color: var(--danger);
+    position: absolute;
+  }
+}

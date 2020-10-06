@@ -1,0 +1,42 @@
+nav.navbar {
+    height: 56px;
+    .navbar-brand {
+        font-size: 30px;
+    }
+    .dropdown-menu {
+        left: unset;
+        right: 0;
+        min-width: 200px;
+        padding: 0;
+        font-size: 14px;
+        button.dropdown-item {
+            padding: 15px;
+            border-radius: 4px;
+        }
+    }
+}
+aside.sidebar {
+    height: calc(100vh - 56px);
+    > ul {
+        margin: 0;
+        li {
+            a {
+                display: block;
+                padding: 15px;
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+                i {
+                    margin-right: 10px;
+                }
+                &:hover,
+                &.active {
+                    background: rgba(255, 255, 255, 0.199);
+                    i {
+                        color: var(--warning);
+                    }
+                }
+            }
+        }
+    }
+}
