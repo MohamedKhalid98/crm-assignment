@@ -27,9 +27,7 @@ class LeadForm extends Form {
       const paramId = this.props.match.params.id;
       if (paramId !== "new") {
         let { data } = await leadService.getLead(paramId);
-        console.log(data, "sss");
         let lead = _.pick(data, ["name", "email", "phone"]);
-        console.log(data, lead);
         this.setState({ data: lead });
       }
     } catch (ex) {

@@ -5,7 +5,6 @@ setJwt(authService.getJwt());
 
 export async function register(user) {
   try {
-    console.log(user);
     const response = await axios.post("/users", user);
     authService.loginWithJwt(response.headers["x-auth-token"]);
   } catch (error) {

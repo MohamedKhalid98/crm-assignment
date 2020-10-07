@@ -13,7 +13,6 @@ class Form extends Component {
     e.preventDefault();
     const { error } = this.validate();
     if (error) {
-      console.log("there is error", error);
       console.log(error.details[0]);
       const e = { [error.details[0].path[0]]: error.details[0].message };
       this.setState({ errors: e });

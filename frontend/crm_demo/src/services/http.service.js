@@ -10,10 +10,9 @@ axios.interceptors.response.use(null, err => {
   } else if (err.response.status === 401) {
     toast.info("Login needed to do this action");
   } else if (err.response.status === 400) {
+    toast.error(err.response.data);
   }
-  toast.error(err.response.data);
 
-  console.log("came");
   return Promise.reject(err);
 });
 
