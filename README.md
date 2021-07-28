@@ -3,12 +3,7 @@
 
 
 ## Installation
-#### MongoDB community server needs to be installed and runnning
-```bash
-brew tap mongodb/brew
-brew install mongodb-community@4.4
-brew services run mongodb-community
-```
+
 
 - go to BACKEND folder and run
 
