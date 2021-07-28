@@ -1,4 +1,4 @@
 {
-    "db": "mongodb://localhost/crm",
+    "db": "mongodb+srv://mk2021:mk2021@cluster0.f16xw.mongodb.net/test",
     "jwtPrivateKey": ""
 }
