@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link
         className="navbar-brand col-2 d-flex align-items-center bg-dark text-white"
         to="/">
-        CRM
+        CRM EXAMPLE
         <small className="ml-2"></small>
       </Link>
 
